@@ -10,9 +10,9 @@ Setup API:
   
 		- Get the Book
   
-    - Rate limiting (can only make x number of trades in y seconds)
+    	- Rate limiting (can only make x number of trades in y seconds)
     
-  -Provide brief documentation (Possibly not need if template is create)
+  	- Provide brief documentation (Possibly not need if template is create)
 
 
 Good start for the API section: https://www.geeksforgeeks.org/python-build-a-rest-api-using-flask/
@@ -20,13 +20,13 @@ Good start for the API section: https://www.geeksforgeeks.org/python-build-a-res
 
 Setup Backend Market:
 
-  - Store the current book and round history
+  	- Store the current book and round history
     
-  - Update the market with player input
+  	- Update the market with player input
     
-      - Possibly Multi-threaded to prevent overwhelming the market
+      		- Possibly Multi-threaded to prevent overwhelming the market
         
-  - Settle the prize
+  	- Settle the prize
 
 
 Some simple code has been written for the market so far. My design plan is to seperate the book/market from the players using Object Oriented Programming but feel free to change as you wish
@@ -34,7 +34,7 @@ Some simple code has been written for the market so far. My design plan is to se
 
 Template for bots/Parent class development:
 
-  - Create a wrapper class to handle the API calls so bot makers can quick do development
+  	- Create a wrapper class to handle the API calls so bot makers can quick do development
 
 
 This should be quick once we have the API working and is just to make lives easier in the future.
