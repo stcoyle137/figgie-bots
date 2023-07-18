@@ -1,0 +1,32 @@
+API Design for Figgie:
+
+GET
+
+Current Book
+Total History
+Hand
+Score (Money total)
+Get Player Id
+
+
+
+POST
+
+Bid
+At
+Sold 
+Take'Em
+Set player id
+
+
+PUT/DELETE
+
+I'm out
+
+
+
+
+
+Resources:
+CARDS
+PLAYERS
